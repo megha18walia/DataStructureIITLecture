@@ -42,13 +42,13 @@ namespace DataStructureIITLecture_3
             //    Console.WriteLine(pos.GetElementByPosition(head, i)?.data.ToString() ?? "Position does not exist");
             //}
 
-            IILinkedList lst = new DoublyLinkedList();
-            Node head = lst.CreateList(new int[] { 10, 9, 8, 7, 5 });
-            IPosition pos = new PostionLL();
-            IList list = new ListLL(head, pos);
-            DemoList(list);
+            //IILinkedList lst = new DoublyLinkedList();
+            //Node head = lst.CreateList(new int[] { 10, 9, 8, 7, 5 });
+            //IPosition pos = new PostionLL();
+            //IList list = new ListLL(head, pos);
+            //DemoList(list);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
         }
 
@@ -216,11 +216,6 @@ namespace DataStructureIITLecture_3
 
             list.SwapElements(2, 3);
             list.Traverse();
-
-
-
-
-
         }
     }
 }
